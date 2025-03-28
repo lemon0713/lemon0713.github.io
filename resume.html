@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+        .resume {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .section {
+            margin-bottom: 25px;
+            border-left: 4px solid #4c78a8;
+            padding-left: 15px;
+        }
+        .section h3 {
+            color: #4c78a8;
+            margin-bottom: 10px;
+        }
+        .personal-info {
+            display: flex;
+            align-items: start;
+            margin-bottom: 20px;
+        }
+        .info-content {
+            flex: 1;
+        }
+        .info-item {
+            margin-bottom: 10px;
+        }
+        .img-placeholder {
+            width: 120px;
+            height: 150px;
+            background: #e6ebf1;
+            margin-left: 20px;
+        }
+        .education-item, .experience-item {
+            margin: 15px 0;
+        }
+        .honor-list {
+            list-style: none;
+        }
+        .honor-list li {
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 15px;
+        }
+        .honor-list li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #4c78a8;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <div class="header">
+            <h1>个人简历 | PERSONAL RESUME</h1>
+        </div>
+        <div class="section">
+            <h3>个人信息</h3>
+            <div class="personal-info">
+                <div class="info-content">
+                    <div class="info-item">姓名：张小可</div>
+                    <div class="info-item">生日：2002.08.16</div>
+                    <div class="info-item">电话：13066668888</div>
+                    <div class="info-item">籍贯：广东省深圳市</div>
+                    <div class="info-item">邮箱：cnsupport@canva.com</div>
+                    <div class="info-item">QQ：12345678</div>
+                </div>
+                <div class="img-placeholder"></div>
+            </div>
+        </div>
+        <div class="section">
+            <h3>教育背景</h3>
+            <div class="education-item">
+                2018.09 - 2022.06 | 可画师范大学 | 应用数学 | 全日制本科<br>
+                <ul>
+                    <li>主修课程：分析学、代数学、几何学、概率论</li>
+                    <li>GPA：3.7/4.0</li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+            <h3>实习经历</h3>
+            <div class="experience-item">
+                2021.09-2022.06 | 可画第二中学 | 实习数学教师<br>
+                <ul>
+                    <li>工作内容：完成高中数学教学任务，累计授课达60节；</li>
+                    <li>协同教研组完成教学计划制定与执行；</li>
+                    <li>协助班主任进行班级管理工作，定期组织班会。</li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+            <h3>校园经历</h3>
+            <div class="experience-item">
+                2019.02-2020.02 | 校学生会办公室 | 干事<br>
+                <ul>
+                    <li>学生会财务管理及活动报销；</li>
+                    <li>协助学生会进行招新工作；</li>
+                    <li>协助学生会组织举办各项校园活动。</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                2021.02-2022.06 | 可画支教社 | 社长<br>
+                <ul>
+                    <li>团队管理：负责制定社团年度工作计划，拆解工作目标下分到部员；</li>
+                    <li>活动统筹：负责全年支教活动的整体构思与制定，跟进活动、物料、人员统筹，全年共完成10个活动，全校参与人数超1000人；</li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+            <h3>个人荣誉</h3>
+            <ul class="honor-list">
+                <li>大学生英语四级（580分）</li>
+                <li>大学生英语六级（550分）</li>
+                <li>教师资格证</li>
+                <li>熟练操作Excel、Word等办公软件</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+    
